@@ -11,7 +11,7 @@ func main() {
 	}()
 
 	err := udp.Connect()
-	fmt.Println("Connect completed")
+	fmt.Println("udp connect completed")
 	if err != nil {
 		panic(err)
 	}
